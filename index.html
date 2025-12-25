@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Portal Header</title> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container" id="signup">
+    <h1 class="form-title">Register</h1>
+    
+    <form method="post" action="">
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text" name="fName" id="fName" placeholder="First name"reqrired>
+        <label for="fName">First Name</label>
+
+      </div>
+      <div class="input-group">
+        <i class="fas fa-user"></i>
+        <input type="text"lName id="lName" placeholder="Last Name"required>
+        <label for="lName">Last Name</label>
+      </div>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email"required>
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="phonenumber" name="phonenumber" id="phonenumber" placeholder="Phone Number"required>
+        <label for="phonenumber">Phone Number</label>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" id="password" placeholder="Password"required>
+        <label for="password">Password</label>
+
+      </div>
+      <input type="submit" class="btn" value="Sign Up" name="SignUp">
+
+    </form>
+    <p class="or">
+    ----------or---------
+    </p>
+    <div class="icon">
+      <i class="fas fa-google"></i>
+      <i class="fas fa-facebook"></i>
+      
+    </div>
+    <div class="link">
+      <p>Already Have Account ?</p>
+      <button id="signInButton">Sign In</button>
+    </div>
+    
+     <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Portal Header</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container" id="signin">
+    <h1 class="form-title">Sign In</h1>
+    <form method="post" action="">
+      
+      </div>
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="email" name="email" id="email" placeholder="Email"required>
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-envelope"></i>
+        <input type="phonenumber" name="phonenumber" id="phonenumber" placeholder="Phone Number"required>
+        <label for="phonenumber">Phone Number</label>
+      </div>
+      <div class="input-group">
+        <i class="fas fa-lock"></i>
+        <input type="password" id="password" placeholder="Password"required>
+        <label for="password">Password</label>
+
+      </div>
+      <p class="recover">
+        <a href="#"Recover Password></a>
+
+      </p>
+      <input type="submit" class="btn" value="Sign In" name="SignIn">
+
+    </form>
+    <p class="or">
+    ----------or---------
+    </p>
+    <div class="icon">
+      <i class="fas fa-google"></i>
+      <i class="fas fa-facebook"></i>
+      
+    </div>
+    <div class="link">
+      <p>Don't have a account yet</p>
+      <button id="signUpButton">Sign Up</button>
+    </div>
+  
+    <div class="logo">
+  <img src="images/logo.png" alt="Company Logo" class="logo">
+    <span>Job</span>Portal
+    </div>
+
+    <nav class="nav" id="navMenu">
+      <a href="#">Jobs</a>
+      <a href="#">Companies</a>
+      <a href="#">Post Job</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="actions">
+      <a href="#" class="login">Login</a>
+      <a href="#" class="signup">Sign Up</a>
+    </div>
+
+    <div class="menu-icon" onclick="toggleMenu()">
+      ☰
+    </div>
+
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-container">
+
+    <div class="hero-content">
+      <span class="tag">#1 Job Portal Platform</span>
+      <h1>
+        Discover <span>Your Career</span><br />
+        Build Your Future
+      </h1>
+      <p>
+        Search thousands of job opportunities from top companies and
+        apply in just a few clicks.
+      </p>
+      <div class="search-box">
+        <input type="text" placeholder="Job title or keyword" />
+        <input type="text" placeholder="Location" />
+        <button>Search Jobs</button>
+      </div>
+       <div class="stats">
+        <div>
+          <h3>12K+</h3>
+          <span>Jobs</span>
+        </div>
+        <div>
+          <h3>6K+</h3>
+          <span>Companies</span>
+        </div>
+        <div>
+          <h3>1M+</h3>
+          <span>Users</span>
+        </div>
+         </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="glow-circle"></div>
+      <img src="images/job-5382501_1280.jpg" alt="Career Illustration">
+    </div>
+
+  </div>
+</section>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+  }
+</script>
+
+<section class="categories">
+  <div class="categories-container">
+
+    <div class="section-title">
+      <h2>Featured Job Categories</h2>
+      <p>Explore opportunities across top industries</p>
+    </div>
+
+    <div class="category-grid">
+
+      <div class="category-card">
+        <div class="icon">💻</div>
+        <h3>IT & Software</h3>
+        <span>1,250 Jobs</span>
+      </div>
+
+      <div class="category-card">
+        <div class="icon">🎨</div>
+        <h3>Design & Creative</h3>
+        <span>840 Jobs</span>
+      </div>
+
+      <div class="category-card">
+        <div class="icon">📊</div>
+        <h3>Marketing</h3>
+        <span>670 Jobs</span>
+      </div>
+
+      <div class="category-card">
+        <div class="icon">💼</div>
+        <h3>Business & Finance</h3>
+        <span>920 Jobs</span>
+      </div>
+
+      <div class="category-card">
+        <div class="icon">🏥</div>
+        <h3>Healthcare</h3>
+        <span>540 Jobs</span>
+      </div>
+
+      <div class="category-card">
+        <div class="icon">🌍</div>
+        <h3>Remote Jobs</h3>
+        <span>1,100 Jobs</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    </div>
+
+    <div class="jobs-grid">
+
+      <div class="job-card">
+        <div class="company-logo">
+          <img src="https://via.placeholder.com/60" alt="Company Logo">
+        </div>
+        <div class="job-info">
+          <h3>Frontend Developer</h3>
+          <p>TechCorp Inc.</p>
+          <span>Remote | Full-time</span>
+        </div>
+        <a href="#" class="apply-btn">Apply</a>
+      </div>
+
+      <div class="job-card">
+        <div class="company-logo">
+          <img src="https://via.placeholder.com/60" alt="Company Logo">
+        </div>
+        <div class="job-info">
+          <h3>UI/UX Designer</h3>
+          <p>Creative Labs</p>
+          <span>New York | Part-time</span>
+        </div>
+        <a href="#" class="apply-btn">Apply</a>
+      </div>
+
+      <div class="job-card">
+        <div class="company-logo">
+          <img src="https://via.placeholder.com/60" alt="Company Logo">
+        </div>
+        <div class="job-info">
+          <h3>Marketing Specialist</h3>
+          <p>BizGrow Co.</p>
+          <span>San Francisco | Full-time</span>
+        </div>
+        <a href="#" class="apply-btn">Apply</a>
+      </div>
+
+      <div class="job-card">
+        <div class="company-logo">
+          <img src="https://via.placeholder.com/60" alt="Company Logo">
+        </div>
+        <div class="job-info">
+          <h3>Data Analyst</h3>
+          <p>Insight Analytics</p>
+          <span>Remote | Contract</span>
+        </div>
+        <a href="#" class="apply-btn">Apply</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="how-it-works">
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-title">
+      <h2>How It Works</h2>
+      <p>Simple steps for Job Seekers and Employers</p>
+    </div>
+
+    <div class="steps-grid">
+
+      <!-- Job Seekers -->
+      <div class="user-type">
+        <h3>Job Seekers</h3>
+        <div class="steps">
+
+          <div class="step">
+            <div class="icon">📝</div>
+            <h4>Create Profile</h4>
+            <p>Sign up and build your professional profile.</p>
+          </div>
+
+          <div class="step">
+            <div class="icon">📄</div>
+            <h4>Upload Resume</h4>
+            <p>Share your skills and experience with top companies.</p>
+          </div>
+
+          <div class="step">
+            <div class="icon">🚀</div>
+            <h4>Apply for Jobs</h4>
+            <p>Discover jobs and apply in just a few clicks.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Employers -->
+      <div class="user-type">
+        <h3>Employers</h3>
+        <div class="steps">
+
+          <div class="step">
+            <div class="icon">🏢</div>
+            <h4>Create Company Profile</h4>
+            <p>Set up your company page and attract top talent.</p>
+          </div>
+
+          <div class="step">
+            <div class="icon">📢</div>
+            <h4>Post Job</h4>
+            <p>Advertise open positions to thousands of candidates.</p>
+          </div>
+
+          <div class="step">
+            <div class="icon">✅</div>
+            <h4>Hire Talent</h4>
+            <p>Review applications and hire the perfect fit.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="top-companies">
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-title">
+      <h2>Top Companies Hiring</h2>
+      <p>Trusted by leading companies worldwide</p>
+    </div>
+
+    <!-- Companies Carousel/Grid -->
+    <div class="companies-grid">
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+1" alt="Company 1"></div>
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+2" alt="Company 2"></div>
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+3" alt="Company 3"></div>
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+4" alt="Company 4"></div>
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+5" alt="Company 5"></div>
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+6" alt="Company 6"></div>
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+7" alt="Company 7"></div>
+      <div class="company-card"><img src="https://via.placeholder.com/120x60?text=Company+8" alt="Company 8"></div>
+    </div>
+
+  </div>
+</section>
+
+<section class="why-choose-us">
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-title">
+      <h2>Why Choose Us</h2>
+      <p>Discover the benefits of using our platform</p>
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="value-grid">
+
+      <div class="value-card">
+        <div class="icon">✔️</div>
+        <h3>Verified Companies</h3>
+        <p>All employers are verified to ensure trustworthy job listings.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon">🤖</div>
+        <h3>Smart Job Matching</h3>
+        <p>Get personalized job recommendations that fit your skills and experience.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon">⚡</div>
+        <h3>Easy Applications</h3>
+        <p>Apply to multiple jobs quickly with just a few clicks.</p>
+      </div>
+
+      <div class="value-card">
+        <div class="icon">🔒</div>
+        <h3>Secure & Fast</h3>
+        <p>Your data is safe and our platform is optimized for speed and performance.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+
+    <!-- Section Header -->
+    <div class="section-title">
+      <h2>What Our Users Say</h2>
+      <p>Success stories from job seekers and employers</p>
+    </div>
+
+    <!-- Testimonials Carousel -->
+    <div class="testimonials-carousel">
+      
+      <div class="testimonial-card">
+        <p>"I landed my dream job within two weeks! The platform made the process so simple."</p>
+        <div class="user-info">
+          <img src="https://via.placeholder.com/50" alt="User 1">
+          <div>
+            <h4>Jane Doe</h4>
+            <span>Frontend Developer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"As an employer, I found top talent quickly. The interface is intuitive and fast."</p>
+        <div class="user-info">
+          <img src="https://via.placeholder.com/50" alt="User 2">
+          <div>
+            <h4>Michael Smith</h4>
+            <span>HR Manager</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Applying for multiple jobs is a breeze. I highly recommend this portal."</p>
+        <div class="user-info">
+          <img src="https://via.placeholder.com/50" alt="User 3">
+          <div>
+            <h4>Emily Johnson</h4>
+            <span>UI/UX Designer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Great platform for connecting companies with skilled professionals efficiently."</p>
+        <div class="user-info">
+          <img src="https://via.placeholder.com/50" alt="User 4">
+          <div>
+            <h4>David Lee</h4>
+            <span>Recruiter</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+
+    <div class="cta-content">
+      <h2>Start Your Career Journey Today</h2>
+      <p>Join thousands of successful job seekers and top employers. Take the next step now!</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn btn-primary">Find Jobs</a>
+        <a href="#" class="btn btn-secondary">Hire Talent</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+
+    <!-- Top Footer -->
+    <div class="footer-top">
+      <div class="footer-logo">
+        <h2>JobPortal</h2>
+        <p>Your gateway to top careers and talent.</p>
+      </div>
+
+      <div class="footer-links">
+        <div class="link-column">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="link-column">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="link-column">
+          <h4>Subscribe</h4>
+          <p>Get the latest job updates and tips.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="footer-bottom">
+      <p>© 2025 JobPortal. All Rights Reserved.</p>
+      <div class="social-icons">
+        <a href="#">🌐</a>
+        <a href="#">🐦</a>
+        <a href="#">📘</a>
+        <a href="#">🔗</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
